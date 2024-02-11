@@ -12,18 +12,18 @@
 		"sources": "https://github.com/NDrms/copperBull"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/copper_bull/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"ndrms.copper_bull.Main"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"ndrms.copper_bull.MainClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"copper_bull.mixins.json",
 		{
 			"config": "modid.client.mixins.json",
 			"environment": "client"
